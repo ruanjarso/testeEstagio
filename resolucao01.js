@@ -7,5 +7,5 @@ function calcularFinaciamento(valorProduto,quantidadeParcelas,taxaDeJuros) {
 }
 /*VISUALIZAÇÃO*/ 
 const totalApagar = calcularFinaciamento(1000,10,2)
-console.log("O valor total a ser pago é: ", totalApagar.toFixed(2)) /*toFixed(): para rertornar somento 2 casas após a vírgula*/ 
+console.log("O valor total a ser pago é: ", totalApagar.toFixed(2)) /*toFixed(): para rertornar somente 2 casas após a vírgula*/ 
 
