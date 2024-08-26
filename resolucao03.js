@@ -8,6 +8,7 @@ const tabelaPrecos = {
     '5-10,6-10': 35.0   // 5-10 kg e 6-10 km: R$ 35.00
 };
 
+/*CRIAÇÃO DA FUNÇÃO*/ 
 function calculaFrete(peso, distancia, tabelaPrecos) {
     //VERIFICANDO A FAIXA DE PESO
     if(peso <= 1) {faixaPeso = '0-1'}
@@ -24,6 +25,6 @@ function calculaFrete(peso, distancia, tabelaPrecos) {
     return valorFrete = tabelaPrecos[chave]
 }
 
+/*VISUALIZAÇÃO*/
 valor = calculaFrete(9,6,tabelaPrecos)
-
 console.log("o valor do frete é: ",valor)
